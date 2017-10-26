@@ -8,10 +8,10 @@ project.ext.description = 'Facebook Login Android SDK'
 project.ext.url = 'https://github.com/facebook/facebook-android-sdk/facebook-login'
 
 dependencies {
-    // Facebook Dependencies
-    compile project(':facebook-core')
-    compile project(':facebook-common')
+    compile 'com.android.support:support-v4:[20,21)'
+    compile 'com.parse.bolts:bolts-android:1.1.2'
 }
+
 
 android {
     compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
